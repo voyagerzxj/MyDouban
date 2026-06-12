@@ -21,6 +21,10 @@ documentary/
   bbc-nature.md              BBC 高分自然纪录片大全（60+ 部）
 youtube/
   videos.md                  ▶️ YouTube 视频标记
+  geography-now.md           Geography Now 全集追踪（579 集，含已看标记）
+  lei-adventure.md           冒险雷探长 全集追踪（487 集，含已看标记）
+scripts/
+  sync_channels.py           刷新频道新视频用（yt-dlp，不是 wiki 页面）
 career/
   bay-area-flexible-jobs.md  💼 湾区灵活就业种类大全
 templates/
@@ -68,6 +72,18 @@ templates/
 - **新板块**：右上角「+ 新建页面」，路径英文（如 `music/albums`）、标题中文，格式抄 `/templates/item`；
 - **搜索**：顶栏搜索框支持中文全文搜索；
 - **注意**：尽量别在 wiki 网页和 GitHub 上同时编辑同一个页面，避免同步冲突。
+
+## 四、YouTube 频道刷新
+
+Geography Now 和冒险雷探长的全集列表迁移自原本地 SQLite tracker（已退役）。频道出新视频后，在电脑上的仓库目录里：
+
+```bash
+git pull                          # 先拉回 wiki 上的最新标记
+python scripts/sync_channels.py   # 依赖：pip install yt-dlp
+git add -A && git commit -m "刷新频道视频" && git push
+```
+
+脚本只把新视频以 ⬜ 状态插到表格顶部并重算统计行，不会改动已有行，所以和网页上的标记互不冲突。想追踪新频道，在脚本的 `CHANNELS` 列表加一行即可。
 
 ## 端口分配备忘（fnOS）
 

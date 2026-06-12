@@ -12,13 +12,14 @@ editor: markdown
 > 状态：⬜ 想看 🟨 在看 ✅ 已看 ❌ 弃了
 > 视频条目建议直接贴链接，标题可省略频道前缀。
 
-## Geography Now
+## 全集追踪频道
 
-> 全集追踪另有本地工具（`书影音/GeographyNow/` 下的 xlsx + tracker），这里只记重点单集。
+这两个频道整频道追踪，每个视频一行，已从本地 SQLite tracker 完全迁移过来：
 
-| 视频 | 链接 | 状态 | ⭐ | 备注 |
-|---|---|---|---|---|
-| | | | | |
+| 频道 | 全集页面 | 出新视频后 |
+|---|---|---|
+| Geography Now | [/youtube/geography-now](/youtube/geography-now) | 在电脑上跑 `scripts/sync_channels.py` |
+| 冒险雷探长 | [/youtube/lei-adventure](/youtube/lei-adventure) | 同上，一次刷新所有频道 |
 
 ## BBC 片段 / 自然类
 

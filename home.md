@@ -20,7 +20,7 @@ editor: markdown
 | [📖 书](/books) | 想读 / 在读 / 已读 |
 | [🗾 日本动画](/anime/watchlist) | 标记清单 · 参考：[2024 佳作](/anime/2024) · [2025 佳作](/anime/2025) |
 | [🌍 纪录片](/documentary/watchlist) | 标记清单 · 参考：[BBC 高分自然纪录片大全](/documentary/bbc-nature) |
-| [▶️ YouTube](/youtube/videos) | Geography Now、BBC 片段及其他频道视频标记 |
+| [▶️ YouTube](/youtube/videos) | 视频标记 · 全集追踪：[Geography Now](/youtube/geography-now) · [冒险雷探长](/youtube/lei-adventure) |
 | [💼 灵活就业](/career/bay-area-flexible-jobs) | 湾区灵活就业种类大全 |
 
 ## 状态标记约定
