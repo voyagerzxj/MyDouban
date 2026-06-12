@@ -23,6 +23,7 @@ youtube/
   videos.md                  ▶️ YouTube 视频标记
   geography-now.md           Geography Now 全集追踪（579 集，含已看标记）
   lei-adventure.md           冒险雷探长 全集追踪（487 集，含已看标记）
+  yuege-movies.md            越哥说电影 全集追踪（536 集）
 scripts/
   sync_channels.py           刷新频道新视频用（yt-dlp，不是 wiki 页面）
 career/

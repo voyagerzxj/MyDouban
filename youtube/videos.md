@@ -20,6 +20,7 @@ editor: markdown
 |---|---|---|
 | Geography Now | [/youtube/geography-now](/youtube/geography-now) | 在电脑上跑 `scripts/sync_channels.py` |
 | 冒险雷探长 | [/youtube/lei-adventure](/youtube/lei-adventure) | 同上，一次刷新所有频道 |
+| 越哥说电影 | [/youtube/yuege-movies](/youtube/yuege-movies) | 同上 |
 
 ## BBC 片段 / 自然类
 

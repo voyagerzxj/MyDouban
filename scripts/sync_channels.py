@@ -17,6 +17,7 @@ import yt_dlp
 CHANNELS = [
     ("https://www.youtube.com/@GeographyNow/videos", "youtube/geography-now.md"),
     ("https://www.youtube.com/@Leisadventure/videos", "youtube/lei-adventure.md"),
+    ("https://www.youtube.com/@yuegemovie/videos", "youtube/yuege-movies.md"),
 ]
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
