@@ -26,6 +26,9 @@ youtube/
   yuege-movies.md            越哥说电影 全集追踪（536 集）
 scripts/
   sync_channels.py           刷新频道新视频用（yt-dlp，不是 wiki 页面）
+  anime/                     生成历年动画评分对照表的工具（MAL/Bangumi/Filmarks 抓取）
+archive/
+  *.db                       原 SQLite tracker 数据库存档（已迁移至 youtube/ 下的 md）
 career/
   bay-area-flexible-jobs.md  💼 湾区灵活就业种类大全
 templates/
